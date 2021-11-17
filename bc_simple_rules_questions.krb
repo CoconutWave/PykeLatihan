@@ -8,11 +8,13 @@ not_geh
 probably_geh
     use are_you_geh(probably_geh)
     when
+        questions.is_geh(True)
         questions.is_sure_geh(False)
 
 definitely_geh
     use are_you_geh(definitely_geh)
     when
+        questions.is_geh(True)
         questions.is_sure_geh(True)
 
 no_rain
