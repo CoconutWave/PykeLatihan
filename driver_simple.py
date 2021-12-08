@@ -34,14 +34,14 @@ def bc_test_questions():
 
     engine.reset()      # Allows us to run tests multiple times.
 
-    engine.activate('bc_simple_rules_questions') #STUDENTS: you will need to edit the name of your rule file here
+    engine.activate('valorant_rules') #STUDENTS: you will need to edit the name of your rule file here
 
     print("doing proof")
     
     try:
-        with engine.prove_goal('bc_simple_rules_questions.valorant_character($bring)') as gen: #STUDENTS: you will need to edit this line
+        with engine.prove_goal('valorant_rules.valorant_character($bring)') as gen: #STUDENTS: you will need to edit this line
             for vars, plan in gen:
-                print("You are: %s" % (vars['bring'])) #STUDENTS: you will need to edit this line
+                print("Your agent is: %s" % (vars['bring'])) #STUDENTS: you will need to edit this line
 
     except Exception:
         # This converts stack frames of generated python functions back to the
