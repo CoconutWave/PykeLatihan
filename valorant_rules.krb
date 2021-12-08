@@ -54,6 +54,9 @@ Sage
         questions.can_heal_self(True)
         questions.can_heal_others(True)
 
+Not_found
+    use valorant_character(Not found)
+
 
         
 
