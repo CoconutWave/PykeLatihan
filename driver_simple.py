@@ -39,7 +39,7 @@ def bc_test_questions():
     print("doing proof")
     
     try:
-        with engine.prove_goal('bc_simple_rules_questions.are_you_geh($bring)') as gen: #STUDENTS: you will need to edit this line
+        with engine.prove_goal('bc_simple_rules_questions.valorant_character($bring)') as gen: #STUDENTS: you will need to edit this line
             for vars, plan in gen:
                 print("You are: %s" % (vars['bring'])) #STUDENTS: you will need to edit this line
 

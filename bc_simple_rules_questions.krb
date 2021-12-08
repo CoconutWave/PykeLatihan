@@ -1,5 +1,40 @@
 # bc_simple_rules.krb
 
+Jett
+    use valorant_character(Jett)
+    when
+        questions.is_male(False)
+        questions.is_radiant(True)
+        questions.can_fly(True)
+                
+Phoenix
+    use valorant_character(Jett)
+    when
+        questions.is_male(True)
+        questions.is_radiant(True)
+        questions.can_fly(False)
+
+Sova
+    use valorant_character(Jett)
+    when
+        questions.is_male(True)
+        questions.is_radiant(False)
+        questions.can_fly(False)
+
+Raze
+    use valorant_character(Jett)
+    when
+        questions.is_male(False)
+        questions.is_radiant(False)
+        questions.can_fly(True)
+
+No_Agent_Found
+    use valorant_character(No_Agent_Found)
+    when
+        
+
+
+
 not_geh
     use are_you_geh(not_geh)
     when

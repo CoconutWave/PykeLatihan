@@ -30,3 +30,18 @@ is_sure_geh($ans)
 	Are u sure u geh?
 	---
 	$ans = yn
+
+is_male($ans)
+	Is your agent male?
+	---
+	$ans = yn
+	
+is_radiant($ans)
+	Is your agent a radiant?
+	---
+	$ans = yn
+
+can_fly($ans)
+	Can your agent fly?
+	---
+	$ans = yn
