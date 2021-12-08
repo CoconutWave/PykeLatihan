@@ -28,9 +28,7 @@ Raze
         questions.is_radiant(False)
         questions.can_fly(True)
 
-No_Agent_Found
-    use valorant_character(No_Agent_Found)
-    when
+
         
 
 
