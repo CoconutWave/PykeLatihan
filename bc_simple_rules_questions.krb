@@ -6,27 +6,53 @@ Jett
         questions.is_male(False)
         questions.is_radiant(True)
         questions.can_fly(True)
+        questions.can_heal_self(False)
+        questions.can_heal_others(False)
                 
 Phoenix
-    use valorant_character(Jett)
+    use valorant_character(Phoenix)
     when
         questions.is_male(True)
         questions.is_radiant(True)
         questions.can_fly(False)
+        questions.can_heal_self(True)
+        questions.can_heal_others(False)
 
 Sova
-    use valorant_character(Jett)
+    use valorant_character(Sova)
     when
         questions.is_male(True)
         questions.is_radiant(False)
         questions.can_fly(False)
+        questions.can_heal_self(False)
+        questions.can_heal_others(False)
 
 Raze
-    use valorant_character(Jett)
+    use valorant_character(Raze)
     when
         questions.is_male(False)
         questions.is_radiant(False)
         questions.can_fly(True)
+        questions.can_heal_self(False)
+        questions.can_heal_others(False)
+
+Reyna
+    use valorant_character(Reyna)
+    when
+        questions.is_male(False)
+        questions.is_radiant(True)
+        questions.can_fly(False)
+        questions.can_heal_self(True)
+        questions.can_heal_others(False)
+
+Sage
+    use valorant_character(Sage)
+    when
+        questions.is_male(False)
+        questions.is_radiant(True)
+        questions.can_fly(False)
+        questions.can_heal_self(True)
+        questions.can_heal_others(True)
 
 
         

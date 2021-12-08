@@ -31,17 +31,31 @@ is_sure_geh($ans)
 	---
 	$ans = yn
 
-is_male($ans)
-	Is your agent male?
-	---
-	$ans = yn
-	
+
+
+
+
 is_radiant($ans)
 	Is your agent a radiant?
 	---
 	$ans = yn
 
+is_male($ans)
+	Is your agent male?
+	---
+	$ans = yn
+
 can_fly($ans)
 	Can your agent fly?
+	---
+	$ans = yn
+
+can_heal_self($ans)
+	Can your agent self-heal?
+	---
+	$ans = yn
+
+can_heal_others($ans)
+	Can your agent heal allies?
 	---
 	$ans = yn
